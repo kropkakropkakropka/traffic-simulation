@@ -1,1 +1,3 @@
-This is a minimalistic C-based simulation of a 4-lane intersection. The program randomly adds cars to each lane and controls traffic lights for smooth traffic flow.
+This C-based project simulates a traffic intersection with four lanes and traffic lights. Vehicles are added randomly to each lane, and the traffic lights are controlled to manage the flow of vehicles. Each vehicle is represented as a structure with attributes for type and size. The simulation includes a queue data structure to manage vehicles in each lane.
+
+The program provides a continuous simulation, adding and removing vehicles based on random events. The traffic lights switch every 5 seconds, controlling the flow of vehicles through the intersection. Vehicles are added to lanes with green lights, and vehicles are removed from lanes with green lights, simulating the movement of vehicles through the intersection.
